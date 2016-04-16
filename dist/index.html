@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>食堂订餐系统</title>
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  </head>
+  <body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="row">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">食堂订餐系统</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" ></span> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../logout">退出系统</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </div>
+</nav>
+<div class="container-fluid">
+  <div class="row">
+    <aside class="col-md-2 col-sm-2 sidebar">
+      <nav class="sidebar-nav">
+      <ul class="metismenu" id="menu">
+          <li>
+              <a href="#" aria-expanded="false" id="main"><span class="glyphicon glyphicon-home"></span> 我的主页</a>
+          </li>
+        <li class="active">
+          <a href="#" aria-expanded="true"><span class="glyphicon glyphicon-star"></span> 食品评价</a>
+          <ul aria-expanded="true" id="events">
+          </ul>
+        </li>
+        <li>
+          <a href="#" aria-expanded="false" id="cart"><span class="glyphicon glyphicon-shopping-cart"></span> 我的购物车</a>
+        </li>
+          <li>
+              <a href="#" aria-expanded="false" id="select-event"><span class="glyphicon glyphicon-plus"></span> 食品列表</a>
+          </li>
+
+      </ul>
+      </nav>
+    </aside>
+    <div class="col-md-10" id="main-content">
+
+    </div>
+  </div>
+
+</div>
+  <script src="js/vendor.index.js"></script>
+  <script src="js/index.js"></script>
+  </body>
+</html>

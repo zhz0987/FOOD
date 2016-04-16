@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-md-5" id="focus-list">
+        <h2 class="text-center">我购买的</h2>
+        <ul class="list-group">
+            <li  v-for="event in eventList" class="list-group-item"><a href="#">{{event}}</a><span class="remove-event pull-right glyphicon glyphicon-trash"></span></li>
+        </ul>
+    </div>
+</div>
+<script src="js/removeEvent.min.js"></script>

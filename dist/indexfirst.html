@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>eCan</title>
+<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="./js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="./css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script type="text/javascript" src="./js/move-top.js"></script>
+<script type="text/javascript" src="./js/easing.js"></script>
+					<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
+<script type="text/javascript" src="./js/jquery.jscrollpane.min.js"></script>
+		<script type="text/javascript" id="sourcecode">
+			$(function()
+			{
+				$('.scroll-pane').jScrollPane();
+			});
+		</script>
+</head>
+<body>
+	<!--- Header Starts Here --->
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				 <a href="index.html"><img src="./images/logo1.png" alt=""></a>
+			</div>
+			
+				<div class="clearfix"></div>
+				<div class="header-bottom">
+					<p>Find your favorite</p>
+					<h1>eCan</h1>
+					<a href="./login.html">Get Started</a>
+				</div>
+		</div>
+	</div>
+	<!--- Header Ends Here --->
+	<!-- Aboutus Starts Here --->
+	<div class="aboutus" id="about">
+		<div class="container">
+			<div class="row aboutus-row">
+				<div class="col-md-4 aboutus-row-column">
+					<i class="icon1"></i>
+					<h3>GET DELICACY</h3>
+					<p>Cooked dishes, meals to cook, fresh salads, exquisite Dim-Sum, beverages, and treats of all sorts—we’ve got you covered. </p>
+				</div>
+				<div class="col-md-4 aboutus-row-column">
+					<i class="icon2"></i>
+					<h3>GET CONVENIENCE</h3>
+					<p>Tap, choose and enjoy from hundreds of top-rated canteens and restaurants in your neighbourhood. </p>
+				</div>
+				<div class="col-md-4 aboutus-row-column">
+					<i class="icon3"></i>
+					<h3>GET SOCIAL</h3>
+					<p>Catch up with the lastest trends in food selection and feel free to rate and comment on every dish. </p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- Aboutus Ends Here --->
+	
+	<!--- Slider Starts Here --->
+	<div class="slider">
+		<div class="container">
+			<div class="slider-content">
+				<script src="./js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!----//End-slider-script---->
+			<!-- Slideshow 4 -->
+			    <div  id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			          <div class="slider-top">
+			          	<img src="./images/1.jpg" alt=""/>
+			          	<p style="color:white;">"Shaw Can is the best! I love it!"</p>
+			          	<p class="below" style="color:white;">-Michael, Best Professor</p>
+			          </div>
+			        </li>
+			        <li>
+			          <div class="slider-top">
+			          <img src="./images/2.jpg" alt=""/>
+			          	<p class="second-slide" style="color:white;">不在新亞Can吃，就在去新亞Can的路上"</p>
+			          	<p class="below" style="color:white;">-梁同學，某港特首</p>
+			          </div>
+			        </li>
+			        <li>
+			          <div class="slider-top">
+			          	<img src="./images/3.jpg" alt=""/>
+			          	<p style="color:white;">"MediCan既檸檬批好好食啊！"</p>
+			          	<p class="below" style="color:white;">-祖堯BB，Vice Chancellor</p>
+			          </div>
+			        </li>
+			      </ul>
+			    </div>
+			    <div class="clearfix"> </div>
+	  			<!--- banner Slider Ends Here ---> 
+		</div>
+	</div>
+			</div>
+		</div>
+	</div>
+	<!--- Slider Ends Here --->
+	<!--- Map Starts Here ---->
+	<div class="map" id="contact">
+		<div class="container">
+			<div class="map-header">
+				<h3>around to me</h3>
+				<div class="row map-row">
+					<div class="col-md-5 map-row-column">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7376.497675444657!2d114.20457359946623!3d22.41965811793966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scanteen!5e0!3m2!1szh-TW!2shk!4v1460531663673" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-7 map-row-column">
+						<section  class="sky-form">
+							<div class="row row1 scroll-pane">
+							<div class="map-column">
+								<h4 class="map-column-head">李卓敏基本醫學大樓小食店</h4>
+								<h4 class="map-column-head-right">0.3 KM</h4>
+								<div class="clearfix"></div>
+								<p>沙田香港中文大學李卓敏基本醫學樓地下</p>
+							</div>
+							<div class="map-column">
+								<h4 class="map-column-head">Coffee Corner</h4>
+								<h4 class="map-column-head-right">0.5 KM</h4>
+								<div class="clearfix"></div>
+								<p>沙田香港中文大學范克廉樓</p>
+							</div>
+							<div class="map-column">
+								<h4 class="map-column-head">範克廉樓學生膳堂</h4>
+								<h4 class="map-column-head-right">0.6 KM</h4>
+								<div class="clearfix"></div>
+								<p>沙田香港中文大學范克廉樓1</p>
+							</div>
+							<div class="map-column">
+								<h4 class="map-column-head">Chung Chi Tang Student Canteen</h4>
+								<h4 class="map-column-head-right">0.6 KM</h4>
+								<div class="clearfix"></div>
+								<p>Pond Cres, Ma Liu Shui</p>
+							</div>
+							<div class="map-column">
+								<h4 class="map-column-head">新亞學生餐廳</h4>
+								<h4 class="map-column-head-right">0.8 KM</h4>
+								<div class="clearfix"></div>
+								<p>沙田香港中文大學梁雄姬樓地下</p>
+							</div>
+							<div class="map-column">
+								<h4 class="map-column-head">Shaw College Student Canteen</h4>
+								<h4 class="map-column-head-right">2.0 KM</h4>
+								<div class="clearfix"></div>
+								<p>沙田香港中文大學逸夫書院地下</p>
+							</div>
+							
+							
+		        		</section>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--- Map Ends Here ---->
+	<!-- Footer Starts Here ---->
+	<div class="footer">
+		<div class="container">
+			<div class="logo">
+				 <a href="index.html"><img src="./images/f_logo.png" class="foot-img" alt=""></a>
+			</div>
+			<p class="footer-head">2016 By Group24</p>
+			<div class="clearfix"></div>
+		</div>
+		<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+	<!-- Footer Ends Here ---->
+</body>
+</html>

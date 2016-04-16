@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-md-6" id="events-list">
+        <table class="table table-hover">
+            <th>#</th>
+            <th>食品名称</th>
+            <th>价格</th>
+            <th>选择</th>
+            <tr v-for="event in events" v-bind:class=trclass[$index%5]>
+                <td>{{$index+1}}</td>
+                <td>{{event}}</td>
+                <td>{{prices[$index]}}</td>
+                <td><input type="checkbox" value="{{event}}"/></td>
+            </tr>
+        </table>
+        <p class="text-center">
+            <button id="add-existEvents" type="button" class="btn btn-success btn-lg">添加</button>
+        </p>
+    </div>
+
+</div>
+<script src="js/focusHot.js"></script>
+

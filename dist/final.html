@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-md-6" id="events-list">
+        <table class="table table-hover">
+            <th>项目</th>
+            <th>输入</th>
+            <tr>
+            <td>电话:</td> <td><input type="text" id="tel" /></td>
+            </tr>
+            <tr>
+            <td>地址:</td> <td><input type="text" id="add" /></td>
+            </tr>
+            <tr>
+            <td>校园卡号:</td> <td><input type="text" id="num" /></td>
+            </tr>
+            <tr>
+            <td>总价:</td> <td>￥{{totals}}</td>
+        </table>
+        <p class="text-center">
+            <button id="add-event-next" onclick="printOrder()" type="button" class="btn btn-success btn-lg">确定</button>
+        </p>
+    </div>
+
+</div>
+<script src="js/final.js"></script>

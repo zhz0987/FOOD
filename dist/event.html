@@ -1,0 +1,59 @@
+<div class="row">
+        <div class="col-md-12">
+            <div  class="alert alert-info" role="alert"><span id="event_title"></span>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="timeline_title"></h4>
+                            </div>
+                            <div class="modal-body">
+                                <div id="timeline" class="timeline-container">
+                                    <br class="clear">
+
+                                    <div class="timeline-wrapper">
+                                        <h2 class="timeline-time"><span>2014/10/01</span></h2>
+                                        <dl class="timeline-series">
+                                            <dt id="19540517" class="timeline-event"><a>食物1</a></dt>
+                                            <dd class="timeline-event-content" id="19540517EX">
+                                                <p>
+                                                    test </p>
+
+                                                <br class="clear">
+                                            </dd><!-- /.timeline-event-content -->
+                                        </dl><!-- /.timeline-series -->
+                                    </div><!-- /.timeline-wrapper -->
+                                    <br class="clear">
+
+                                </div><!-- /#timelineContainer -->
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="removeEvent" type="button" class="btn btn-danger  pull-right ">
+                    <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> 取消购买
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 chart-common" id="hotTime">
+            每日销量
+        </div>
+        <div class="col-md-6 chart-common" id="category">食物分类</div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-6 chart-common" id="relation">关系分析</div>
+        <div class="col-md-6 chart-common" id="keyWords">
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-md-12 chart-common" id="emotion">评价分析</div>
+    </div>
+<script src="js/event.js"></script>
